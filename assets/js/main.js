@@ -78,3 +78,29 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+/*==================== Decoder Email ====================*/ 
+function decode(a) {
+    return a.replace(/[a-zA-Z]/g, function(c){
+      return String.fromCharCode((c <= "Z" ? 90 : 122) >= (c = c.charCodeAt(0) + 13) ? c : c - 26);
+    })
+  }; 
+  function openMailerKehl(element) {
+  var y = decode("znvygb:gubznf.xruy@tofft.pu");
+  element.setAttribute("href", y);
+  element.setAttribute("onclick", "");
+  element.firstChild.nodeValue = "E-Mail-Software öffnet sich";
+  };
+
+
+  function decode(a) {
+    return a.replace(/[a-zA-Z]/g, function(c){
+      return String.fromCharCode((c <= "Z" ? 90 : 122) >= (c = c.charCodeAt(0) + 13) ? c : c - 26);
+    })
+  }; 
+  function openMailerSteffen(element) {
+  var y = decode("znvygb:wbrea.fgrssra@xfo-ft.pu");
+  element.setAttribute("href", y);
+  element.setAttribute("onclick", "");
+  element.firstChild.nodeValue = "E-Mail-Software öffnet sich";
+  };
