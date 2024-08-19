@@ -319,6 +319,7 @@ img{
 .education__content,
 .experience__content{
   display: flex;
+  margin-bottom: var(--mb-2);
 }
 
 .education__time,
@@ -404,6 +405,10 @@ img{
 
 
 /*========== CERTIFICATES ==========*/
+.certificate__content{
+  margin-bottom: var(--mb-2);
+}
+
 .certificate__title{
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-1);
